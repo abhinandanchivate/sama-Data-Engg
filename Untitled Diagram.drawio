@@ -1,9 +1,35 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="2">
   <diagram name="Page-1" id="NnoF0E1COTr0dK6jX-qn">
-    <mxGraphModel>
+    <mxGraphModel dx="2036" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2zpf76PNLlLIFSii1iBH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2zpf76PNLlLIFSii1iBH-1" target="2zpf76PNLlLIFSii1iBH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2zpf76PNLlLIFSii1iBH-1" value="Cloud&amp;nbsp; : DC&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2zpf76PNLlLIFSii1iBH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2zpf76PNLlLIFSii1iBH-3" target="2zpf76PNLlLIFSii1iBH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2zpf76PNLlLIFSii1iBH-3" value="Data Engg : it is the practice of designing , building and maintaining systems and infra that enable the collection, storage, processing, and analysis of large vol of data efficiently ands ecurely&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=25;rounded=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-37.5" y="220" width="625" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2zpf76PNLlLIFSii1iBH-5" value="&lt;table&gt;&lt;br/&gt;&lt;thead&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;th&gt;Area&lt;/th&gt;&lt;br/&gt;&lt;th&gt;Responsibilities&lt;/th&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;/thead&gt;&lt;br/&gt;&lt;tbody&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;1. Data Pipeline Development&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Design, build, and manage scalable &lt;strong&gt;ETL/ELT&lt;/strong&gt; pipelines&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;2. Data Ingestion&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Ingest data from various sources: APIs, databases, flat files, streaming&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;3. Data Transformation&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Clean, normalize, and transform raw data into usable formats&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;4. Data Warehousing&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Design and implement data warehouses or lakes (e.g., BigQuery, Redshift, Snowflake)&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;5. Data Modeling&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Define schemas, data models (Star, Snowflake) to optimize for analytics&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;6. Data Quality Assurance&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Implement validation rules, anomaly detection, and monitoring&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;7. Batch &amp;amp; Stream Processing&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Use tools like Apache Spark (batch) or Kafka, Flink (streaming)&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;8. Automation &amp;amp; Orchestration&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Use tools like &lt;strong&gt;Apache Airflow&lt;/strong&gt;, &lt;strong&gt;Dagster&lt;/strong&gt;, or &lt;strong&gt;Cloud Composer&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;9. Security &amp;amp; Governance&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Ensure data encryption, access control, compliance (GDPR, HIPAA, etc.)&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;10. Collaboration&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Work with Data Scientists, Analysts, DevOps, and Business Teams&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;/tbody&gt;&lt;/table&gt;" style="whiteSpace=wrap;html=1;fontSize=25;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="585" width="515" height="2605" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tToQEfHLC_68lVZRLfat" name="Page-2">
+    <mxGraphModel dx="1186" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mYczj3_nA0bOnRCw4RyQ-1" value="A GCP project is a fundamental unit of organization in GCP. it acts a container for&amp;nbsp;&lt;div&gt;1. resources&lt;/div&gt;&lt;div&gt;2. permissions&lt;/div&gt;&lt;div&gt;3. apis &amp;amp; services&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. billing and quotas&amp;nbsp;&lt;/div&gt;&lt;div&gt;5. network setup&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="640" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
