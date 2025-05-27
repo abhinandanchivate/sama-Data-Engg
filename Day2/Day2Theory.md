@@ -78,6 +78,21 @@
 * Choose **read replicas** instead of scaling up vertically
 * Schedule **auto-start/stop** for non-prod instances
 
+                         ┌────────────┐
+                       │  App Tier  │
+                       └────┬───────┘
+                            │
+                 ┌──────────▼──────────┐
+                 │ Primary (Read/Write)│
+                 │  Cloud SQL Instance │
+                 └──────────┬──────────┘
+                            │
+         ┌──────────────────┼──────────────────┐
+         ▼                  ▼                  ▼
+  Read Replica 1     Read Replica 2      Read Replica 3
+ (Read-Only SQL)    (Regional Replica)   (Analytics Use)
+
+
 ### 🔹 Advanced Points:
 
 * Supports **private IP**, VPC peering
