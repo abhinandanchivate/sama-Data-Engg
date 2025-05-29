@@ -1,6 +1,5 @@
-## 🧪 GCP Hands-On Labs – Step-by-Step (25 Labs, Highly Detailed)
+## 🧪 GCP Hands-On Labs – Step-by-Step 
 
-...(Lab 1–5 unchanged)
 
 ---
 
@@ -16,6 +15,35 @@ app-flexible/
 ├── Dockerfile            # Custom runtime definition
 ├── main.py               # Flask app entrypoint
 ├── requirements.txt      # Python dependencies
+```
+
+**📌 Folder Setup Commands:**
+
+```bash
+mkdir app-flexible && cd app-flexible
+cat > main.py <<EOF
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')
+def home():
+    return 'Hello from App Engine Flexible!'
+EOF
+
+echo "Flask==2.0.3" > requirements.txt
+
+cat > Dockerfile <<EOF
+FROM python:3.9-slim
+WORKDIR /app
+COPY . .
+RUN pip install -r requirements.txt
+CMD [\"gunicorn\", \"-b\", \":$PORT\", \"main:app\"]
+EOF
+
+cat > app.yaml <<EOF
+runtime: custom
+env: flex
+service: flexible-app
+EOF
 ```
 
 #### ✅ Steps:
