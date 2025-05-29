@@ -1,16 +1,6 @@
 ## 🧪 GCP Hands-On Labs – Step-by-Step 
 
----
 
-### **Lab 1: Create Ubuntu/Debian VM**
-
-**Objective**: Deploy a virtual machine, enable HTTP/HTTPS access, and SSH into it.
-
-#### ✅ Steps:
-
-...(Lab 1–4 unchanged)
-
----
 
 ### **Lab 5: Deploy App on App Engine (Standard Environment)**
 
