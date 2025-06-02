@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1" pages="7">
   <diagram name="Page-1" id="NnoF0E1COTr0dK6jX-qn">
     <mxGraphModel dx="2036" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,6 +29,141 @@
         <mxCell id="1" parent="0" />
         <mxCell id="mYczj3_nA0bOnRCw4RyQ-1" value="A GCP project is a fundamental unit of organization in GCP. it acts a container for&amp;nbsp;&lt;div&gt;1. resources&lt;/div&gt;&lt;div&gt;2. permissions&lt;/div&gt;&lt;div&gt;3. apis &amp;amp; services&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. billing and quotas&amp;nbsp;&lt;/div&gt;&lt;div&gt;5. network setup&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="210" y="90" width="640" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="75P72cw-fVznlcmfGoMk" name="Page-3">
+    <mxGraphModel dx="818" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1BEX1-Vuf87BOxBsFrib-1" value="It&#39;s a &lt;strong data-end=&quot;202&quot; data-start=&quot;178&quot;&gt;cloud-based platform&lt;/strong&gt; that provides everything you need to run applications: runtime, libraries, operating system, and infrastructure — &lt;strong data-end=&quot;345&quot; data-start=&quot;317&quot;&gt;without managing servers&lt;/strong&gt;." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1BEX1-Vuf87BOxBsFrib-2" value="&lt;table&gt;&lt;br/&gt;&lt;thead&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;th&gt;Criteria&lt;/th&gt;&lt;br/&gt;&lt;th&gt;App Engine (PaaS)&lt;/th&gt;&lt;br/&gt;&lt;th&gt;Compute Engine (VM/IaaS)&lt;/th&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;/thead&gt;&lt;br/&gt;&lt;tbody&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Abstraction Level&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;High (Google manages infra)&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Low (you manage infra)&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Use Case Type&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Deploy apps quickly, no server management&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Full control over OS, middleware, networking&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Scalability&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Auto-scaling built-in&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Manual setup or with scripts/load balancers&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Startup Time&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Fast (seconds)&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Slower (VM boot time)&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Limited OS access&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Full root access to OS&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Background Processes&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Limited in Standard; OK in Flexible&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Fully supported&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;tr&gt;&lt;br/&gt;&lt;td&gt;&lt;strong&gt;Custom Software&lt;/strong&gt;&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Not ideal for deeply customized stacks&lt;/td&gt;&lt;br/&gt;&lt;td&gt;Best suited&lt;/td&gt;&lt;br/&gt;&lt;/tr&gt;&lt;br/&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="490" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8gi_-SXwdngyKqZdr6Ku" name="Page-4">
+    <mxGraphModel dx="1425" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1PZnEmD1MwyKietvV2X-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c1PZnEmD1MwyKietvV2X-1" target="c1PZnEmD1MwyKietvV2X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1PZnEmD1MwyKietvV2X-1" value="BigQuery : is a Google cloud&#39;s serverless, highly scalable&amp;nbsp; and cost effective multi cloud warehouse designed for running analytics over the massive datasets using SQL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="690" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c1PZnEmD1MwyKietvV2X-2" value="no need to manager server(no need to provision, scale, or maintain&amp;nbsp;&lt;div&gt;&lt;b&gt;infra is abstracted and fully managed by cloud provider&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;focus would be on building logic not worrying about the infra.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;they are auto scaled&lt;/b&gt;&lt;/div&gt;&lt;div&gt;FaaS : db, apis, storage. ==&amp;gt; based on the event triggering situation. http req ==&amp;gt; via api gateway or cloud Functions URL&amp;nbsp;&lt;/div&gt;&lt;div&gt;PUB/SUB : message queues&lt;/div&gt;&lt;div&gt;DB changes&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=21;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="165.63" y="310" width="598.75" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3FesAI1pstow_N6W4ztm" name="Page-5">
+    <mxGraphModel dx="814" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;table&gt;&#xa;&lt;thead&gt;&#xa;&lt;tr&gt;&#xa;&lt;th&gt;Feature / Aspect&lt;/th&gt;&#xa;&lt;th&gt;&lt;strong&gt;App Engine&lt;/strong&gt;&lt;/th&gt;&#xa;&lt;th&gt;&lt;strong&gt;Serverless (e.g., Cloud Functions)&lt;/strong&gt;&lt;/th&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/thead&gt;&#xa;&lt;tbody&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Type&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Serverless &lt;em&gt;Platform-as-a-Service (PaaS)&lt;/em&gt;&lt;/td&gt;&#xa;&lt;td&gt;Serverless &lt;em&gt;Function-as-a-Service (FaaS)&lt;/em&gt;&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Granularity&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Deploy entire applications&lt;/td&gt;&#xa;&lt;td&gt;Deploy single-purpose functions&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Startup Time&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Fast (standard env: very fast)&lt;/td&gt;&#xa;&lt;td&gt;Faster (cold starts are very short)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Code Structure&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Structured apps (e.g., Flask, Node.js app with routes)&lt;/td&gt;&#xa;&lt;td&gt;Lightweight functions (e.g., one endpoint per function)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Scaling&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Automatic, app-wide&lt;/td&gt;&#xa;&lt;td&gt;Automatic, function-level&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Billing&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Per instance time (down to milliseconds)&lt;/td&gt;&#xa;&lt;td&gt;Per invocation and execution time&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Web apps, APIs, long-running services&lt;/td&gt;&#xa;&lt;td&gt;Event-driven tasks, lightweight microservices&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Custom Runtimes&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Supported (via Flexible Env)&lt;/td&gt;&#xa;&lt;td&gt;Limited (custom in Cloud Functions Gen 2)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Deployment&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;App-level (&lt;code&gt;gcloud app deploy&lt;/code&gt;)&lt;/td&gt;&#xa;&lt;td&gt;Function-level (&lt;code&gt;gcloud functions deploy&lt;/code&gt;)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Background Jobs&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Supported (via services/modules)&lt;/td&gt;&#xa;&lt;td&gt;Ideal for event-based jobs&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/tbody&gt;&#xa;&lt;/table&gt;" link="&lt;table&gt;&#xa;&lt;thead&gt;&#xa;&lt;tr&gt;&#xa;&lt;th&gt;Feature / Aspect&lt;/th&gt;&#xa;&lt;th&gt;&lt;strong&gt;App Engine&lt;/strong&gt;&lt;/th&gt;&#xa;&lt;th&gt;&lt;strong&gt;Serverless (e.g., Cloud Functions)&lt;/strong&gt;&lt;/th&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/thead&gt;&#xa;&lt;tbody&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Type&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Serverless &lt;em&gt;Platform-as-a-Service (PaaS)&lt;/em&gt;&lt;/td&gt;&#xa;&lt;td&gt;Serverless &lt;em&gt;Function-as-a-Service (FaaS)&lt;/em&gt;&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Granularity&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Deploy entire applications&lt;/td&gt;&#xa;&lt;td&gt;Deploy single-purpose functions&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Startup Time&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Fast (standard env: very fast)&lt;/td&gt;&#xa;&lt;td&gt;Faster (cold starts are very short)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Code Structure&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Structured apps (e.g., Flask, Node.js app with routes)&lt;/td&gt;&#xa;&lt;td&gt;Lightweight functions (e.g., one endpoint per function)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Scaling&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Automatic, app-wide&lt;/td&gt;&#xa;&lt;td&gt;Automatic, function-level&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Billing&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Per instance time (down to milliseconds)&lt;/td&gt;&#xa;&lt;td&gt;Per invocation and execution time&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Web apps, APIs, long-running services&lt;/td&gt;&#xa;&lt;td&gt;Event-driven tasks, lightweight microservices&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Custom Runtimes&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Supported (via Flexible Env)&lt;/td&gt;&#xa;&lt;td&gt;Limited (custom in Cloud Functions Gen 2)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Deployment&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;App-level (&lt;code&gt;gcloud app deploy&lt;/code&gt;)&lt;/td&gt;&#xa;&lt;td&gt;Function-level (&lt;code&gt;gcloud functions deploy&lt;/code&gt;)&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Background Jobs&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Supported (via services/modules)&lt;/td&gt;&#xa;&lt;td&gt;Ideal for event-based jobs&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/tbody&gt;&#xa;&lt;/table&gt;" id="XfXd_m2hQ8y1IL5EkUG4-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="150" y="150" width="760" height="1170" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ms1z1ABzuOgU5QkbbZYL" name="Page-6">
+    <mxGraphModel dx="1762" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tVdOVh27qvK_F0CngjFd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVdOVh27qvK_F0CngjFd-1" target="tVdOVh27qvK_F0CngjFd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-1" value="Client Layer(SQL, API , UI, CLi)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVdOVh27qvK_F0CngjFd-2" target="tVdOVh27qvK_F0CngjFd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVdOVh27qvK_F0CngjFd-2" target="tVdOVh27qvK_F0CngjFd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVdOVh27qvK_F0CngjFd-2" target="tVdOVh27qvK_F0CngjFd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-2" value="Query Execution(Dremel Engine)" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-4" value="Storage" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-6" value="BorgJobs(scheduler)" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVdOVh27qvK_F0CngjFd-8" target="tVdOVh27qvK_F0CngjFd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-8" value="1. Compute Layer&amp;nbsp;&lt;div&gt;Roles : parses and optmize the SQL&lt;/div&gt;&lt;div&gt;2. distributes query to 1000s of workers&lt;/div&gt;&lt;div&gt;3. uses a tree based execution model for parallel and aggregation&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="340" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-10" value="1. workers&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-12" value="Top : final servers that sends it to ur plate" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-13" value="middle : food station ( partial results)&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="301" y="990" width="109" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-14" value="bottom : cook" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-15" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;[Head Chef]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(Final aggregation)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ▲&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;┌────────┴────────┐&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;[Sous-chef A]&amp;nbsp; &amp;nbsp; &amp;nbsp;[Sous-chef B]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(Partial aggregation)&amp;nbsp; &amp;nbsp;(Partial aggregation)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;▲&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;▲&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ┌──────┴──────┐&amp;nbsp; &amp;nbsp; &amp;nbsp;┌────┴────┐&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;[Chef 1]&amp;nbsp; &amp;nbsp;[Chef 2]&amp;nbsp; &amp;nbsp;[Chef 3]&amp;nbsp; [Chef 4]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; (Scans rice) (Scans veg) (Scans drinks) (Scans dessert)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="920" width="450" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-16" value="&lt;h2 data-end=&quot;1500&quot; data-start=&quot;1449&quot;&gt;&lt;strong data-end=&quot;1500&quot; data-start=&quot;1458&quot;&gt;Compute Layer: Dremel Execution Engine&lt;/strong&gt;&lt;/h2&gt;&lt;br/&gt;&lt;h3 data-end=&quot;1519&quot; data-start=&quot;1502&quot;&gt;������ Key Roles:&lt;/h3&gt;&lt;br/&gt;&lt;ul data-end=&quot;1658&quot; data-start=&quot;1520&quot;&gt;&lt;br/&gt;&lt;li data-end=&quot;1546&quot; data-start=&quot;1520&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1546&quot; data-start=&quot;1522&quot;&gt;Parses and optimizes SQL&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1586&quot; data-start=&quot;1547&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1586&quot; data-start=&quot;1549&quot;&gt;Distributes query to 1000s of workers&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1658&quot; data-start=&quot;1587&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1658&quot; data-start=&quot;1589&quot;&gt;Uses a &lt;strong data-end=&quot;1626&quot; data-start=&quot;1596&quot;&gt;tree-based execution model&lt;/strong&gt; for parallelism and aggregation&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;h3 data-end=&quot;1678&quot; data-start=&quot;1660&quot;&gt;������ Query Flow:&lt;/h3&gt;&lt;br/&gt;&lt;ol data-end=&quot;1883&quot; data-start=&quot;1679&quot;&gt;&lt;br/&gt;&lt;li data-end=&quot;1725&quot; data-start=&quot;1679&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1725&quot; data-start=&quot;1682&quot;&gt;&lt;strong data-end=&quot;1696&quot; data-start=&quot;1682&quot;&gt;SQL Parser&lt;/strong&gt; → parses and optimizes query ==&amp;gt; checks syntax , rewrites complex expressions&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1768&quot; data-start=&quot;1726&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1768&quot; data-start=&quot;1729&quot;&gt;&lt;strong data-end=&quot;1740&quot; data-start=&quot;1729&quot;&gt;Planner&lt;/strong&gt; → creates stages/subqueries&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1826&quot; data-start=&quot;1769&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1826&quot; data-start=&quot;1772&quot;&gt;&lt;strong data-end=&quot;1788&quot; data-start=&quot;1772&quot;&gt;Slot Manager&lt;/strong&gt; → allocates compute resources (slots)&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li data-end=&quot;1883&quot; data-start=&quot;1827&quot;&gt;&lt;br/&gt;&lt;p data-end=&quot;1883&quot; data-start=&quot;1830&quot;&gt;&lt;strong data-end=&quot;1850&quot; data-start=&quot;1830&quot;&gt;Execution Engine&lt;/strong&gt; → distributes tasks across nodes&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="160" width="260" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-17" value="1. Partition : splitting the table into segments (parts) based on a column (usually date or integer).&amp;nbsp;&amp;nbsp;&lt;div&gt;2. Cluster :&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1420" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVdOVh27qvK_F0CngjFd-18" target="tVdOVh27qvK_F0CngjFd-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-18" value="Real time Data ingestion(th process of bringing the data into bigquery from various sources)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1650" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tVdOVh27qvK_F0CngjFd-19" target="tVdOVh27qvK_F0CngjFd-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-19" value="data processing &amp;amp; transformation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tVdOVh27qvK_F0CngjFd-21" value="analytics and insights(clean and modeled one )" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3lchPkem39CxZRyl9MSb" name="Page-7">
+    <mxGraphModel dx="1186" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3qIkBSEZRPWg8rxxOuOx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3qIkBSEZRPWg8rxxOuOx-1" target="3qIkBSEZRPWg8rxxOuOx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qIkBSEZRPWg8rxxOuOx-1" value="SQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3qIkBSEZRPWg8rxxOuOx-2" value="1. DDL(Data Def Langaulage) : create[to create any new database object ==&amp;gt; table, view, index, trigger, etc], alter , drop ,truncate&lt;div&gt;2. DML (Data manipulation language insert update, delete ops ) :&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. DQL&lt;/div&gt;&lt;div&gt;4. TCL&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="410" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
